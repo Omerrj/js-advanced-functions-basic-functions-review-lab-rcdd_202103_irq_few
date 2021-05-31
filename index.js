@@ -14,10 +14,9 @@ const wrapAdjective =(style="*") => (adjective="special")=>
   const Calculator = {
   add: (a,b) => a + b,
   
-  subtract: ()=>a - b,
-  multiply: function(a,b) {
-    return a * b
-  },
+  subtract: (a,b)=>a - b,
+  
+  multiply: (a,b)=>a * b,
   divide: function(a,b) {
     return a / b;
   }
