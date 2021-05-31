@@ -13,8 +13,8 @@ const wrapAdjective =(style="*") => (adjective="special")=>
   
   const Calculator = {
   add: (a,b) =>
-    return a + b;
-  },
+     a + b;
+  
   subtract: function(a,b) {
     return a - b
   },
