@@ -19,7 +19,7 @@ const wrapAdjective =(style="*") => (adjective="special")=>
   multiply: (a,b)=>a * b,
   
   divide: (a,b)=>a / b
-}
+  };
 
 let actionApplyer = function(start, ray) {
   let a = start
