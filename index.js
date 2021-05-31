@@ -17,9 +17,7 @@ const wrapAdjective =(style="*") => (adjective="special")=>
   subtract: (a,b)=>a - b,
   
   multiply: (a,b)=>a * b,
-  divide: function(a,b) {
-    return a / b;
-  }
+  divide: ()=>a / b
 }
 
 let actionApplyer = function(start, ray) {
