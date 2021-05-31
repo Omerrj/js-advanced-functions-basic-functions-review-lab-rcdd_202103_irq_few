@@ -8,7 +8,7 @@ const mondayWork = (activity="go to the office")=>
 
 
 const wrapAdjective =(style="*") =>{
-  return function(adjective="special") {
+  return (adjective="special")=> {
     return `You are ${style}${adjective}${style}!`
   }
 }
