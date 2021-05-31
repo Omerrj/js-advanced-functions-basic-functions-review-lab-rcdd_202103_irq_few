@@ -21,7 +21,7 @@ const wrapAdjective =(style="*") => (adjective="special")=>
     divide: (a,b)=>a / b
   };
 
-let actionApplyer = function(start, ray) {
+const actionApplyer = (start, ray)=> {
   let a = start
 
   for (let i = 0; i < ray.length; i++ ){
